@@ -1,0 +1,45 @@
+.main {
+  text-align: center;
+}
+
+.main-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.main-header {
+  background-color: #095689;
+  height: 50px;
+  padding: 8px;
+  color: white;
+  text-align: left;
+  
+}
+
+
+.main-title {
+  font-size: 1.5em;
+}
+
+.main-intro {
+  font-size: large;
+  text-align: left;
+  margin-top: 20px;
+}
+.main-intro button{
+  margin-right: 20px;
+  min-width: 80px;
+}
+.main-intro .conver-this-oder{
+  margin-top: 10px;
+  font-size: 18px;
+  text-decoration: none;
+}
+@keyframes main-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+a:hover, a:focus {
+  color: #fafafb;
+  text-decoration: none;
+}
